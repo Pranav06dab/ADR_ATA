@@ -1,0 +1,33 @@
+# Python & Environment
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data (Never commit large raw data or processed sets)
+data/raw/
+data/processed/
+*.csv
+*.rel
+*.txt
+
+# Models (Ignore large serialized files)
+models/*.joblib
+models/*.pkl
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.joblib
+*.pkl
+data/models/
+
+venv/
+.venv/
+*.joblib
+*.pkl
+data/models/
+*.csv
